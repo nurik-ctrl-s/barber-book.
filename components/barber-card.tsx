@@ -38,11 +38,11 @@ export function BarberCard({ barber, selected, onSelect }: BarberCardProps) {
                 <span className="text-sm font-medium">{barber.rating}</span>
               </div>
               <span className="text-sm text-muted-foreground">
-                ({barber.reviewCount} reviews)
+                ({barber.reviewCount} Отзывы)
               </span>
             </div>
             <p className="mt-1 text-xs text-muted-foreground">
-              {barber.experience} years experience
+              {barber.experience} Опыт работы
             </p>
           </div>
         </div>

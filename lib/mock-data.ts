@@ -4,7 +4,7 @@ export const barbers: Barber[] = [
   {
     id: '1',
     name: 'Маркус Джонсон',
-    photo: '1.jpg',
+    photo: '/1.jpg',
     experience: 8,
     specialty: 'Мастер классической стрижки и фейда',
     rating: 4.9,
@@ -13,7 +13,7 @@ export const barbers: Barber[] = [
   {
     id: '2',
     name: 'Давид ',
-    photo: '2.jpg',
+    photo: '/2.jpg',
     experience: 5,
     specialty: 'Современные стили и работа с бородой',
     rating: 4.8,
@@ -22,7 +22,7 @@ export const barbers: Barber[] = [
   {
     id: '3',
     name: 'Алексей Смирнов',
-    photo: '3.jpg',
+    photo: '/3.jpg',
     experience: 12,
     specialty: 'Традиционное барберство',
     rating: 5.0,
@@ -31,7 +31,7 @@ export const barbers: Barber[] = [
   {
     id: '4',
     name: 'Майкл Браун',
-    photo: '4.jpg',
+    photo: '/4.jpg',
     experience: 6,
     specialty: 'Модные стрижки и креативные решения',
     rating: 4.7,
@@ -40,7 +40,7 @@ export const barbers: Barber[] = [
   {
     id: '5',
     name: 'Оскар Петров',
-    photo: '5.jpg',
+    photo: '/5.jpg',
     experience: 6,
     specialty: 'Стрижка по-королевски',
     rating: 4.8,
@@ -49,7 +49,7 @@ export const barbers: Barber[] = [
   {
     id: '6',
     name: 'Тимур Ким',
-    photo: '6.jpg',
+    photo: '/6.jpg',
     experience: 6,
     specialty: 'Элегантный, винтажный, «old money»',
     rating: 4.5,

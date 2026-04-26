@@ -91,11 +91,11 @@ export default async function AdminDashboardPage() {
               <table className="w-full">
                 <thead>
                   <tr className="border-b text-left text-sm text-muted-foreground">
-                    <th className="pb-3 font-medium">Time</th>
-                    <th className="pb-3 font-medium">Client</th>
-                    <th className="pb-3 font-medium">Barber</th>
-                    <th className="pb-3 font-medium">Service</th>
-                    <th className="pb-3 font-medium">Duration</th>
+                    <th className="pb-3 font-medium">Клиент</th>
+                    <th className="pb-3 font-medium">Клиент</th>
+                    <th className="pb-3 font-medium">Мастер</th>
+                    <th className="pb-3 font-medium">Услуга</th>
+                    <th className="pb-3 font-medium">Продолжительность</th>
                     <th className="pb-3 text-right font-medium">Price</th>
                   </tr>
                 </thead>

@@ -149,7 +149,8 @@ export default async function HomePage() {
                 <CardContent className="p-6 text-center">
                   <div className="relative mx-auto h-24 w-24 overflow-hidden rounded-full">
                     <Image
-                      src={barber.photo}
+                    src={barber.photo.startsWith('/') ? barber.photo : '/' + barber.photo}
+                     // src={barber.photo}
                       alt={barber.name}
                       fill
                       className="object-cover"

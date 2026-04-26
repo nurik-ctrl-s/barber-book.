@@ -147,7 +147,8 @@ export function BarbersManager({ initialBarbers }: BarbersManagerProps) {
               <div className="flex flex-col items-center text-center">
                 <div className="relative h-20 w-20 overflow-hidden rounded-full">
                   <Image
-                    src={barber.photo}
+                  src={barber.photo.startsWith('/') ? barber.photo : '/' + barber.photo}
+                    // src={barber.photo}
                     alt={barber.name}
                     fill
                     className="object-cover"
